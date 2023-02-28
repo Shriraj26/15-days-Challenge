@@ -1,3 +1,11 @@
+"""
+Get maximum sum using a window of size k
+First create a window of size k and get its sum
+Define a max variable
+Now slide the window calculating the max along side.
+"""
+
+
 def slidingWindowSumK(arr, k):
 
     # Get current sum for the window
